@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_bg"
+    android:orientation="vertical"
+    android:paddingTop="44dp"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="Example Image"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cf_intro_image" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find. Join. Enjoy."
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#F5F5F5"
+        android:paddingLeft="24dp"
+        android:paddingBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text= "Welcome to CampusFest!"
+        android:textSize="16dp"
+        android:textColor="#F5F5F5"
+        android:paddingLeft="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="your one-stop app for finding the best college events! Stay updated on cultural fests, seminars, and competitions happening near you"
+        android:textSize="16dp"
+        android:textColor="#F5F5F5"
+        android:paddingLeft="24dp"
+        android:paddingBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lets Get Started!..."
+        android:textSize="16dp"
+        android:textColor="#F5F5F5"
+        android:paddingLeft="24dp"
+        android:paddingBottom="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/signin"
+            android:text="SIGNIN"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:elevation="6dp"
+            android:backgroundTint="#8E44AD"
+            android:layout_marginEnd="64dp"
+            android:layout_marginLeft="16dp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/login"
+            android:text="LOGIN"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:elevation="6dp"
+            android:backgroundTint="#8E44AD"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

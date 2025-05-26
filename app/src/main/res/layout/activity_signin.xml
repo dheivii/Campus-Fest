@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signupName"
+        android:padding="12dp"
+        android:hint="Name"
+        android:textColorHint="#F5F5F5"
+        android:textColor="#F5F5F5"
+        android:inputType="textEmailAddress"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:layerType="software"
+        android:shadowColor="#33000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:backgroundTint="@android:color/transparent"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signupEmail"
+        android:padding="12dp"
+        android:hint="Email"
+        android:textColorHint="#F5F5F5"
+        android:textColor="#F5F5F5"
+        android:inputType="textEmailAddress"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:layerType="software"
+        android:shadowColor="#33000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:backgroundTint="@android:color/transparent"
+        android:background="#FFFFFF"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/signupPassword"
+        android:padding="12dp"
+        android:hint="password"
+        android:textColorHint="#F5F5F5"
+        android:textColor="#F5F5F5"
+        android:inputType="textEmailAddress"
+        android:elevation="4dp"
+        android:layout_marginBottom="12dp"
+        android:paddingLeft="16dp"
+        android:textSize="16sp"
+        android:layerType="software"
+        android:shadowColor="#33000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:backgroundTint="@android:color/transparent"
+        android:background="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:backgroundTint="#8E44AD"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/loginRedirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:paddingTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+</LinearLayout>

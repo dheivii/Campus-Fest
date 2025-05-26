@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "417894051924",
+    "project_id": "login-register-firebase-b3c1b",
+    "storage_bucket": "login-register-firebase-b3c1b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417894051924:android:493a4b1f5033e15dde3dc1",
+        "android_client_info": {
+          "package_name": "com.example.campusfest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA96m8F7NWjOjqNSUm2qOO_5NNPlVP7hIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
