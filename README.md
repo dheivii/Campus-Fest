@@ -47,10 +47,10 @@ The *Campus Fest* app is designed to simplify college cultural event management.
   - <a href = "https://github.com/dheivii/Campus-Fest/blob/main/Campusfest-App%20Screenshots/Home%20Page.png">Home page</a>
 
 * **Event Registration with Google Maps**
-  -<a href ="https://github.com/dheivii/Campus-Fest/blob/main/Campusfest-App%20Screenshots/event%20location%20and%20direction%20page.png">Event Registration with Google Maps</a>
+  - <a href ="https://github.com/dheivii/Campus-Fest/blob/main/Campusfest-App%20Screenshots/event%20location%20and%20direction%20page.png">Event Registration with Google Maps</a>
 
 * **My Events (Upcoming & Attended)**
- - < a href= "https://github.com/dheivii/Campus-Fest/blob/main/Campusfest-App%20Screenshots/Upcoming%20event%20Page.png">My Events (Upcoming & Attended)</a>
+ - <a href= "https://github.com/dheivii/Campus-Fest/blob/main/Campusfest-App%20Screenshots/Upcoming%20event%20Page.png">My Events (Upcoming & Attended)</a>
 ## ✅ Final Conclusion
 
 The *Campus Fest* app provides a complete digital solution for college cultural events. From registration to location tracking and post-event feedback, the application ensures an engaging and seamless experience for students.
